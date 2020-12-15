@@ -24,7 +24,7 @@
     "request-promise": "^4.2.6"
   },
   "scripts": {
-    "start": "concurrently \"npm run start-react\" \"node server\"",
+    "start": "npm run start-react && node server",
     "start-react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
